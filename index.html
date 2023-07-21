@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Blockquote -->
+    <blockquote>
+        <q>
+            This is a quote written in &lt;blockquote&gt; element
+        </q>
+        <br><br>
+        <cite>&minus; Faisal Shahzad</cite>
+    </blockquote>
+    <!-- its a comment -->
+
+    <!-- Defination List -->
+    <dl>
+        <dt>Defination Title</dt>
+        <dd>its a defination &amp; and element for defination list is &lt;dl&gt;, and element for defination title is &lt;dt&gt;</dd>
+    </dl>
+
+    <!-- HTML Entities -->
+    <p>
+        &lt; &gt; &amp; &copy; &trade; &star; Faisal&nbsp;Shahzad
+    </p>
+
+    <!-- Links -->
+    <a href="https://google.com">Google &circlearrowleft;</a>
+    <nav role="navigation" aria-label="main menu">
+        <ul class="navbar">
+            <li><a href="#" title="title"></a>Menu1</li>
+            <li><a href="#" title="title"></a>Menu2</li>
+            <li><a href="#" title="title"></a>Menu3</li>
+            <li><a href="#" title="title"></a>Menu4</li>
+            <li><a href="#" title="title"></a>Menu5</li>
+        </ul>
+    </nav>
+    <br><br>
+
+    <!-- Images - Responsive Image
+    
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" alt="Black dog" width="480" height="360"
+    srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 1x,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 2x,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 3x,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 4x">
+    -->
+    <br>
+
+    <!-- Responsive Width
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg"
+    alt="Black dog"
+    width="480" height="360"
+    srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 960w,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 1440w,
+            https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 1920w"
+    sizes="(max-width: 480px) 280px,
+            (max-width: 960px) 480px,
+            (max-width: 1440px) 960px,
+            (max-width: 1920px) 1440px"
+            >
+    -->
+
+    <br>
+
+    <!-- Responsive Picture
+    <picture>
+        <source media="(min-width:600px)" srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-720.jpg">
+        <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog2-cropped-320.jpg">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" alt="Black Dog" width="480px" height="360px">
+    </picture>
+    -->
+
+    <br>
+<!-- Responsive Picture -->
+<figure>    
+    <picture>
+        <source media="(min-width: 600px)"
+        srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-320.jpg 320w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 960w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 1440w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 1920w">
+        <source
+        srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-320.jpg 320w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-720.jpg 720w,
+                https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 960w">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" alt="Black Dog" width="480" height="360">
+    </picture>
+    <figcaption>A black shiny dog sitting in a sunny day.</figcaption>
+</figure>
+<br><br>
+
+<!-- Audio -->
+<Audio controls>
+    <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"
+            type="audio/ogg"> 
+    <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"
+            type="audio/mpeg">
+    <p>Sorry the audio file is not supported!</p>
+</Audio>
+
+<br>
+
+<!-- Video -->
+<video controls>
+    <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm"
+            type="video/webm">
+    <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4"
+            type="video/mp4">
+
+    <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+            kind="captions"
+            label="English"
+            srclang="en"
+            default>
+    <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+            kind="subtitles"
+            label="Español"
+            srclang="es">
+    <p>This would be a video of a moon walk</p>
+</video>
+
+<br><br>
+
+<iframe width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/0Gr1XSyxZy0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+
+<br><br>
+
+<!-- forms -->
+<h1>Our Form</h1>
+
+<form action="success.html" method="get">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="name">
+    <label for="email">Email </label>
+    <input type="email" name="email" id="email" placeholder="me@email.com">
+    <button>Sign Up</button>
+</form>
+
+<br><br>
+
+
+</body>
+</html>
